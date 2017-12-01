@@ -25,4 +25,4 @@ def test_wps_hello_again():
     hello._handler(request, response)
 
     assert response.outputs["output"].data == 'Hello Alice'
-    print("All good!")
+    print("All really good!")
